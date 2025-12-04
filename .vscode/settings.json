@@ -1,0 +1,14 @@
+{
+    "liveServer.settings.port": 5500,
+    "liveServer.settings.root": "/",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "files.exclude": {
+        "node_modules": true,
+        ".DS_Store": true
+    },
+    "search.exclude": {
+        "node_modules": true
+    }
+}
