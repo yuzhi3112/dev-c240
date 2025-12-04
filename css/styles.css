@@ -1,18 +1,18 @@
 /* ===== ShoreSquad Color Palette ===== 
-   Ocean Blue: #0B7BA3 (primary - trust, ocean vibes)
-   Sand Gold: #F4B942 (accent - warmth, sun)
-   Seafoam Green: #3ECF7D (secondary - eco-friendly, growth)
+   Deep Blue: #003D82 (primary - trust, ocean vibes)
+   Sky Blue: #0088CC (accent - bright, energetic)
+   Light Blue: #4DB8FF (secondary - approachable)
    Clean White: #FFFFFF (background, clarity)
-   Dark Navy: #1A3A52 (text, contrast)
+   Dark Blue: #001F47 (text, contrast)
    Light Gray: #F0F0F0 (subtle backgrounds)
 */
 
 /* ===== Global Styles ===== */
 :root {
-    --primary-blue: #0B7BA3;
-    --accent-gold: #F4B942;
-    --secondary-green: #3ECF7D;
-    --dark-navy: #1A3A52;
+    --primary-blue: #003D82;
+    --accent-gold: #0088CC;
+    --secondary-green: #4DB8FF;
+    --dark-navy: #001F47;
     --light-gray: #F0F0F0;
     --white: #FFFFFF;
     --border-radius: 8px;
@@ -72,7 +72,7 @@ p {
     background: linear-gradient(135deg, var(--primary-blue), var(--dark-navy));
     color: var(--white);
     padding: 1rem 0;
-    box-shadow: 0 2px 8px rgba(11, 123, 163, 0.2);
+    box-shadow: 0 2px 8px rgba(0, 61, 130, 0.2);
     position: sticky;
     top: 0;
     z-index: 100;
@@ -128,8 +128,8 @@ p {
 
 /* ===== Hero Section ===== */
 .hero {
-    background: linear-gradient(135deg, rgba(11, 123, 163, 0.8), rgba(62, 207, 125, 0.6)), 
-                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><path fill="%23f4b9421a" d="M0,300 Q300,200 600,300 T1200,300 L1200,600 L0,600 Z"/></svg>');
+    background: linear-gradient(135deg, rgba(0, 61, 130, 0.8), rgba(77, 184, 255, 0.6)), 
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600"><path fill="%234db8ff1a" d="M0,300 Q300,200 600,300 T1200,300 L1200,600 L0,600 Z"/></svg>');
     background-size: cover;
     background-position: center;
     color: var(--white);
@@ -156,7 +156,7 @@ p {
 /* ===== Call-to-Action Button ===== */
 .cta-button {
     background: var(--accent-gold);
-    color: var(--dark-navy);
+    color: var(--white);
     border: none;
     padding: 1rem 2.5rem;
     font-size: 1.1rem;
@@ -164,13 +164,13 @@ p {
     border-radius: var(--border-radius);
     cursor: pointer;
     transition: var(--transition);
-    box-shadow: 0 4px 15px rgba(244, 185, 66, 0.3);
+    box-shadow: 0 4px 15px rgba(0, 136, 204, 0.3);
 }
 
 .cta-button:hover {
-    background: #f5c25e;
+    background: #0077bb;
     transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(244, 185, 66, 0.4);
+    box-shadow: 0 6px 20px rgba(0, 136, 204, 0.4);
 }
 
 .cta-button:active {

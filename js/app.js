@@ -296,7 +296,7 @@ function addAccessibilityStyles() {
             top: -40px;
             left: 0;
             background: var(--accent-gold);
-            color: var(--dark-navy);
+            color: var(--white);
             padding: 8px;
             text-decoration: none;
             z-index: 100;
